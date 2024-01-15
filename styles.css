@@ -78,7 +78,7 @@ button {
 .background-box2 {
     display:flex;
     flex-direction:column;
-    height:410px;
+    height: 420px;
 }
 .info-header {
     font-size:36px;
@@ -86,6 +86,7 @@ button {
     text-align:center;
     margin-top:1em;
     margin-bottom:1em;
+    color:#1F2937;
 }
 .img-box {
     display:flex;
@@ -110,4 +111,69 @@ button {
     display:block; /* Delete this line if anything go wrong */
     max-width:10em;
     text-align:center;
+}
+
+.background-box3 {
+    display:flex;
+    flex-direction: column;
+    height:375px;
+    background-color:#e5e7eb;
+    justify-content:center;
+    align-items:center;
+}
+#quote {
+    font-size:36px;
+    font-style:italic;
+    max-width:750px;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#credits {
+    font-size: 25px;
+    margin-left:500px;
+    color:#1F2937;
+    font-weight:bold;
+    
+}
+.background-box4 {
+    display:flex;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+}
+
+.container-4 {
+    display:flex;
+    width:1000px;
+    height:125px;
+    background-color:#3882F6;
+    border-radius:10px;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.call {
+    display:block;
+    color:white;
+    align-items:center;
+}
+.call-under {
+    filter:contrast(65%);
+}
+.last-button {
+    border: 2px solid white;
+    margin-top:0;
+}
+.call-main {
+    font-size: 1.5em;
+}
+.footer {
+    display:flex;
+    height:100px;
+    background-color:#1F2937;
+    justify-content:center;
+    align-items:center;
+}
+.copyright {
+    color:white;
+    filter:contrast(60%)
 }
