@@ -14,7 +14,11 @@ ul, .container-1 {
     color:white;
     
 }
-
+.link {
+    text-decoration:none;
+    color:#e5e7eb;
+    filter:contrast(60%);
+}
 .container-1 {
     display:flex;
     justify-content:space-around;
@@ -106,6 +110,18 @@ button {
     flex:1;
     
 }
+.img-1 {
+    background-color:#030158;
+}
+.img-2 {
+    background-color:#0502a8;
+}
+.img-3 {
+    background-color:#0804f8;
+}
+.img-4 {
+    background-color:#5552fc;
+}
 
 .info {
     display:block; /* Delete this line if anything go wrong */
@@ -176,4 +192,41 @@ button {
 .copyright {
     color:white;
     filter:contrast(60%)
+}
+.background-box5 {
+    display:flex;
+    flex-direction:column;
+    background-color: #967259;
+    height:500px;
+    align-items:center;
+}
+.extra-header {
+    font-family: 'Titan One', 'Times New Roman', Times, 
+    serif;
+    font-size:50px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    text-shadow: 2px 2px 2px black;
+}
+.icon {
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    border:5px solid #030158;
+}
+.porfolio-tile1 {
+    width:180px;
+    text-align:center;
+}
+.portfolio-text, .tile-text {
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+.tile-text {
+    font-size:1.5em;
+}
+.portfolio-text {
+    margin-top:8px;
+    font-family: 'Times New Roman', Times, serif;
 }
